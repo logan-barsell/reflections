@@ -7,7 +7,8 @@ var promisefunct = new Promise(function(resolve, reject) {
     else {
         reject('Failure!')
     }
-    })`
+    })
+```
 It can then be chained with then() and catch() methods
 ```js
 promisefunct.then(function(){

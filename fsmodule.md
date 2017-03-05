@@ -1,6 +1,6 @@
 THE FILE SYSTEM MODULE is a native JavaScript module, so you don't have to use Node Package Manager to install it to your app. To use it, all you need to do is require it like so:
 ```js
-fs = require('fs')
+const fs = require('fs')
 ```
 
 To read a file, follow this syntax:
